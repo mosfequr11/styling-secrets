@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bangla Shop</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -141,8 +142,54 @@
     </div>
   </header>
 
-  <!-- Banner Slider-->
+  <!-- Banner Slider Section -->
+  <section class="banner">
+    <div class="custom-container">
+      <div class="swiper banner-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slides">
+              <div class="banner-content">
+                <span class="tagline">Save up 30% off</span>
+                <h2 class="title">Bengal Vegetable farm Organic 100%</h2>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula faucibus massa est
+                  elit
+                  maecenas.</p>
+                <button class="shop-btn">Shop Now</button>
+              </div>
+              <div class="banner-image">
+                <figure>
+                  <img src="assets/images/right-img.png" alt="Banner Image">
+
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Add JS file -->
+  <script>
+    // var swiper = new Swiper(".banner-slide", {
+    //   direction: "vertical",
+    //   pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //   },
+    // });
+  </script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="assets/js/script.js"></script>
+
 </body>
 
 </html>

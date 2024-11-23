@@ -80,9 +80,13 @@ body {
   padding-bottom: 5px;
 }
 
-input[type="text"] {
+.search-area input[type="text"] {
   border: none;
   background: transparent;
+}
+
+.search-area input:focus-visible {
+  outline: none;
 }
 
 .search-area .btn {
@@ -188,6 +192,28 @@ span.user-text {
 .navigation-menu li a:hover {
   color: var(--green_color);
 }
+
+/* Banner Slider Section */
+
+.banner .custom-container {
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  justify-content: space-between;
+  background-color: #EBFAEB;
+  padding: 10px 150px;
+  border-radius: 30px;
+  gap: 50px;
+}
+
+.slides .banner-content {
+  padding-top: 50px;
+}
+
+.slides .banner-content {}
+
 
 /* Responsive area */
 
