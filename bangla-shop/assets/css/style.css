@@ -33,6 +33,7 @@ body {
 }
 
 /* Header top area  */
+
 .header-top-area {
   background-color: var(--white_color);
 }
@@ -42,15 +43,15 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px 15px;
+  padding: 20px 15px 10px;
 }
 
 .logo-area {}
 
 .logo-link img,
 .logo-link svg {
-  width: 290px;
-  height: 60px;
+  width: 240px;
+  height: 45px;
 }
 
 .right-area {
@@ -64,6 +65,7 @@ body {
   display: inline;
   margin-left: 30px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .search-area {
@@ -90,6 +92,7 @@ input[type="text"] {
   color: var(--white_color);
   border-radius: 25px;
   padding: 15px 30px;
+  cursor: pointer;
 }
 
 .icon-sm.search {
@@ -102,6 +105,91 @@ input[type="text"] {
   right: -3px;
 }
 
+.icon-sm.bag {
+  position: relative;
+}
+
+span.count {
+  background-color: var(--green_color);
+  color: var(--white_color);
+  border-radius: 50%;
+  font-size: 10px;
+  position: absolute;
+  top: -16px;
+  right: -20px;
+  width: 24px;
+  height: 25px;
+  text-align: center;
+}
+
+.right-area .user.right-item {
+  position: relative;
+}
+
+span.user-text {
+  margin-left: 5px;
+  vertical-align: super;
+}
+
+/* Header Navigation area */
+
+.header-area .custom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.categories-area .category-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--green_color);
+  width: 230px;
+  height: 48px;
+  border-radius: 25px;
+  padding: 0 20px;
+  color: var(--white_color);
+  cursor: pointer;
+}
+
+.offer-btn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 40px;
+}
+
+.offer-btn .text-btn {
+  color: var(--green_color);
+}
+
+.navigation .navigation-menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navigation-menu li {
+  list-style: none;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--black_color);
+}
+
+.navigation-menu li a:hover {
+  color: var(--green_color);
+}
+
+/* Responsive area */
 
 @media (min-width: 1740px) {
   .custom-container {
