@@ -241,6 +241,62 @@ span.user-text {
   padding: 0 20px;
   color: var(--white_color);
   cursor: pointer;
+  border: 0px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Promo Section */
+section.promo {
+  margin-top: 40px;
+}
+
+.promo .custom-container {
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.promo-item {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  padding: 40px;
+  border-radius: 25px;
+}
+
+.promo-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.promo-item .shop-btn {
+  background-color: var(--white_color);
+  color: var(--black_color);
+  width: 170px;
+  height: 48px;
+  border-radius: 25px;
+  padding: 0 20px;
+  cursor: pointer;
+  border: 0px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.promo-item .title {
+  font-size: 46px;
+  line-height: 46px;
+  color: var(--black_color);
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.promo-item .tagline {
+  font-size: 24px;
+  color: var(--green_color);
+  font-weight: 600;
 }
 
 /* Responsive area */
