@@ -234,16 +234,21 @@ span.user-text {
 }
 
 .banner-content .shop-btn {
-  background-color: var(--green_color);
-  width: 230px;
-  height: 48px;
-  border-radius: 25px;
-  padding: 0 20px;
   color: var(--white_color);
+  background: var(--green_color);
+  border-radius: 25px;
   cursor: pointer;
   border: 0px;
   font-size: 16px;
-  margin-top: 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.banner-content .shop-btn:hover {
+  background-color: var(--white_color);
+  color: var(--black_color);
 }
 
 /* Promo Section */
@@ -261,8 +266,11 @@ section.promo {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: cover;
-  padding: 40px;
   border-radius: 25px;
+  padding-right: 470px;
+  padding-top: 120px;
+  padding-left: 70px;
+  padding-bottom: 120px;
 }
 
 .promo-image {
@@ -274,14 +282,19 @@ section.promo {
 .promo-item .shop-btn {
   background-color: var(--white_color);
   color: var(--black_color);
-  width: 170px;
-  height: 48px;
   border-radius: 25px;
-  padding: 0 20px;
   cursor: pointer;
   border: 0px;
   font-size: 16px;
-  margin-top: 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.promo-item .shop-btn:hover {
+  color: var(--white_color);
+  background: var(--green_color);
 }
 
 .promo-item .title {
