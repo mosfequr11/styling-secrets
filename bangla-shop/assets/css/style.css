@@ -212,8 +212,36 @@ span.user-text {
   padding-top: 50px;
 }
 
-.slides .banner-content {}
+.slides .banner-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
 
+.banner-content .title {
+  font-size: 65px;
+  line-height: 70px;
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.banner-content .tagline {
+  font-size: 32px;
+  color: var(--green_color);
+  font-weight: 600;
+}
+
+.banner-content .shop-btn {
+  background-color: var(--green_color);
+  width: 230px;
+  height: 48px;
+  border-radius: 25px;
+  padding: 0 20px;
+  color: var(--white_color);
+  cursor: pointer;
+}
 
 /* Responsive area */
 
