@@ -264,15 +264,15 @@ section.promo {
   justify-content: center;
 }
 
-.promo-item {
+.promo .promo-item {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: cover;
   border-radius: 25px;
-  padding-right: 470px;
   padding-top: 120px;
   padding-left: 70px;
   padding-bottom: 120px;
+  min-width: 830px;
 }
 
 .promo-image {
@@ -360,6 +360,28 @@ section.categories {
 .category-item-title a:hover {
   color: var(--green_color);
 }
+
+/* Collection Section */
+
+.collection .collection-item {
+  background: #FFEBB7;
+  padding: 25px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.custom-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+
 
 /* Responsive area */
 
