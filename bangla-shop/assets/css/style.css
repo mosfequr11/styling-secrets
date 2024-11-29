@@ -244,6 +244,7 @@ span.user-text {
   text-decoration: none;
   margin-top: 30px;
   display: inline-block;
+  transition: .6s;
 }
 
 .banner-content .shop-btn:hover {
@@ -260,6 +261,7 @@ section.promo {
   display: flex;
   margin: 0 auto;
   gap: 30px;
+  justify-content: center;
 }
 
 .promo-item {
@@ -290,6 +292,7 @@ section.promo {
   text-decoration: none;
   margin-top: 30px;
   display: inline-block;
+  transition: .6s;
 }
 
 .promo-item .shop-btn:hover {
@@ -310,6 +313,52 @@ section.promo {
   font-size: 24px;
   color: var(--green_color);
   font-weight: 600;
+}
+
+.categories .custom-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Categories Section  */
+
+section.categories {
+  margin: 50px 0px;
+}
+
+.categories .custom-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.categories .category-item {
+  padding: 35px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories .category-item.odd {
+  background-color: #F2F2F2;
+}
+
+.categories .category-item.even {
+  background-color: #EBFAEB;
+}
+
+.category-item-title a {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--black_color);
+  font-weight: 600;
+}
+
+.category-item-title a:hover {
+  color: var(--green_color);
 }
 
 /* Responsive area */
