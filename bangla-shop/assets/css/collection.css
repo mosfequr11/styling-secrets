@@ -1,0 +1,40 @@
+/* Collection Section */
+section.collection {
+  margin: 40px 0px;
+}
+
+.collection .custom-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.collection .collection-item {
+  background: #FFEBB7;
+  padding: 25px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* Responsive area */
+
+@media (max-width: 768px) {
+  .collection .custom-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 414px) {
+  .collection .custom-container {
+    flex-wrap: wrap;
+    padding: 0px 15px;
+  }
+}
