@@ -1,0 +1,69 @@
+/* Promo Section */
+
+section.promo {
+  margin: 40px 0px;
+}
+
+.promo .custom-container {
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+  justify-content: center;
+}
+
+.promo .promo-item {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  border-radius: 25px;
+  padding-top: 120px;
+  padding-left: 70px;
+  padding-bottom: 120px;
+  min-width: 830px;
+}
+
+.promo-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.promo-item .shop-btn {
+  background-color: var(--white_color);
+  color: var(--black_color);
+  border-radius: 25px;
+  cursor: pointer;
+  border: 0px;
+  font-size: 16px;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+  transition: .6s;
+}
+
+.promo-item .shop-btn:hover {
+  color: var(--white_color);
+  background: var(--green_color);
+}
+
+.promo-item .title {
+  font-size: 46px;
+  line-height: 46px;
+  color: var(--black_color);
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.promo-item .tagline {
+  font-size: 24px;
+  color: var(--green_color);
+  font-weight: 600;
+}
+
+.categories .custom-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
