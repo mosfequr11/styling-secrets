@@ -6,13 +6,13 @@ section.categories {
 
 .categories .custom-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
   margin: 0 auto;
 }
 
 .categories .category-item {
-  padding: 35px 45px;
+  padding: 35px 75px;
   display: flex;
   flex-direction: column;
   justify-content: center;

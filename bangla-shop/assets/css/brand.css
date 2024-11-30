@@ -1,0 +1,25 @@
+/* Brand Section */
+
+.brand .custom-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0px auto;
+  gap: 30px;
+}
+
+.brand .brand-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 414px) {
+  .brand .custom-container {
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    justify-content: center;
+  }
+}

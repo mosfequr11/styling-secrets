@@ -61,9 +61,3 @@ section.promo {
   color: var(--green_color);
   font-weight: 600;
 }
-
-.categories .custom-container {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
