@@ -44,6 +44,7 @@ body {
   justify-content: space-between;
   margin: 0 auto;
   padding: 20px 15px 10px;
+  max-width: 1710px;
 }
 
 .logo-area {}
@@ -144,6 +145,7 @@ span.user-text {
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 10px 15px;
+  max-width: 1710px;
 }
 
 .categories-area .category-btn {
@@ -183,7 +185,7 @@ span.user-text {
 
 .navigation-menu li a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 16px;    
   font-weight: 600;
   text-transform: capitalize;
   color: var(--black_color);
@@ -193,13 +195,18 @@ span.user-text {
   color: var(--green_color);
 }
 
+.section-title {
+  max-width: 1710px;
+  margin: 0px auto;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
 /* Responsive area */
 
-@media (min-width: 1740px) {
-  .custom-container {
-    max-width: 1710px;
-  }
-}
 
 @media (max-width: 768px) {
   .custom-container {

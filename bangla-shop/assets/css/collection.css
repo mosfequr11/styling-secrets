@@ -8,11 +8,12 @@ section.collection {
   justify-content: space-between;
   margin: 0 auto;
   gap: 30px;
+  max-width: 1710px;
 }
 
 .collection .collection-item {
   background: #FFEBB7;
-  padding: 25px;
+  padding: 50px;
   border-radius: 10px;
   position: relative;
   margin-top: 20px;
@@ -21,7 +22,31 @@ section.collection {
   align-items: center;
 }
 
+.collection-item .title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
 
+.collection-item .item-content-box .icon {
+  background-color: var(--white_color);
+  color: var(--black_color);
+  border-radius: 50%;
+  padding: 14px 12px;
+  transition: .6s;
+}
+
+.collection-item .item-content-box .icon:hover {
+  background-color: var(--green_color);
+}
+
+.item-content-box .icon svg {
+  vertical-align: middle;
+}
+
+.collection-item .item-content-box .icon:hover svg {
+  color: var(--white_color);
+}
 
 /* Responsive area */
 

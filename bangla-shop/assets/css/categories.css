@@ -9,6 +9,7 @@ section.categories {
   justify-content: space-between;
   gap: 30px;
   margin: 0 auto;
+  max-width: 1710px;
 }
 
 .categories .category-item {

@@ -6,6 +6,7 @@
   justify-content: space-between;
   margin: 0px auto;
   gap: 30px;
+  max-width: 1710px;
 }
 
 .brand .brand-item {
