@@ -1,4 +1,6 @@
-/* Brand Section */
+section.brand {
+  margin-top: 70px;
+}
 
 .brand .custom-container {
   display: flex;
