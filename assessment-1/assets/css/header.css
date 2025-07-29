@@ -1,0 +1,162 @@
+header.primary-header {
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav-header {
+    max-width: 140px;
+    height: 70px;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list {
+    height: auto;
+}
+
+.nav-list li {
+    position: relative;
+}
+
+.nav-list li a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #020e28;
+    text-transform: uppercase;
+}
+
+.nav-list li a:hover {
+    color: #fee188;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.nav-toggle {
+    font-size: 20px;
+    color: #000000;
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+    height: 0;
+    overflow: hidden;
+    transform: rotate(0deg);
+}
+
+.nav-toggle:hover {
+    color: #fee188;
+    transform: rotate(0deg);
+}
+
+.nav-header .nav-toggle {
+    display: none;
+}
+
+.right-btn {
+    height: auto;
+    background-color: #fee188;
+    padding: 15px 10px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-decoration: none;
+    color: #020e28;
+}
+
+/* Sidebar */
+/* .sidebar {
+    width: 400px;
+} */
+
+.sidebar.show-sidebar {
+    transform: translate(0);
+    width: 400px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    transform: translate(-100%);
+}
+
+.sidebar .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    max-width: 100%;
+}
+
+.close-btn {
+    font-size: 24px;
+    background: transparent;
+    border-color: transparent;
+    color: #020e28;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    .nav-header .nav-toggle {
+        display: block;
+    }
+
+    .nav-toggle {
+        height: auto;
+
+    }
+
+    .nav-list {
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .right-btn {
+        /* height: 0;
+        overflow: hidden; */
+        display: none;
+    }
+
+    .show {
+        height: auto;
+    }
+
+    .show-links {
+        height: auto;
+    }
+}
