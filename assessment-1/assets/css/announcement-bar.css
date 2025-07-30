@@ -50,7 +50,7 @@
     fill: #007dff;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 570px) {
     .announcement-container {
         display: flex;
         flex-direction: column;

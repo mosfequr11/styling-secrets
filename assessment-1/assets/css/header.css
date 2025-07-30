@@ -6,7 +6,7 @@ header.primary-header {
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding: 20px 15px;
+    padding: 20px 0px;
     margin: 0 auto;
     align-items: center;
 }
@@ -142,6 +142,10 @@ header.primary-header {
 }
 
 @media screen and (max-width: 992px) {
+    .header-container {
+        padding: 20px 15px;
+    }
+
     .nav-header .nav-toggle {
         display: block;
     }
@@ -168,5 +172,11 @@ header.primary-header {
 
     .show-links {
         height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        padding: 20px 0px;
     }
 }

@@ -45,3 +45,15 @@ picture {
     max-width: 1210px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 414) {
+    .container {
+        padding: 0px 15px;
+    }
+}

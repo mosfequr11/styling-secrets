@@ -7,6 +7,10 @@
 
 .banner .bg-image {
     position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .banner-container {
@@ -70,6 +74,42 @@
     text-align: center;
 }
 
-.banner-container .swiper-pagination-bullet {
-    color: #fcfeff;
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background-color: #fcfeff !important;
 }
+
+
+@media screen and (max-width: 768px) {
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-container .left-side {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .banner-container .right-side {
+        width: 100%;
+        padding-top: 0px;
+
+    }
+
+    .banner-container .heading {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 15px;
+        text-align: center;
+        display: block;
+    }
+
+    .banner-container .text-content {
+        font-size: 18px;
+        line-height: 20px;
+        padding-right: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 414px) {}
