@@ -1,3 +1,7 @@
+.about-section {
+    margin-bottom: 80px;
+}
+
 .about-container {
     display: flex;
     justify-content: space-around;
