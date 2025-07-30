@@ -2,7 +2,8 @@
 .banner {
     display: block;
     position: relative;
-    height: 720px;
+    padding: 20px;
+    padding-bottom: 20px;
 }
 
 .banner .bg-image {
@@ -22,13 +23,14 @@
 .bg-image img {
     background-size: cover;
     object-fit: cover;
+    height: 100%;
 }
 
 .banner-container .left-side {
     display: block;
     position: relative;
     width: 50%;
-    padding-top: 200px;
+    padding-top: 170px;
 }
 
 .banner-container .right-side {
@@ -79,6 +81,24 @@
     background-color: #fcfeff !important;
 }
 
+@media screen and (max-width: 1170px) {
+    .banner-container .heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .banner-container .text-content {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .banner-container .left-side {
+        display: block;
+        position: relative;
+        width: 50%;
+        padding-top: 150px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .banner-container {
@@ -91,9 +111,9 @@
     }
 
     .banner-container .right-side {
-        width: 100%;
-        padding-top: 0px;
-
+        width: 80%;
+        padding-top: 20px;
+        margin: 0px auto;
     }
 
     .banner-container .heading {

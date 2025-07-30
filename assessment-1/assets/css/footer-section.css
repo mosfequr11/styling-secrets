@@ -48,12 +48,12 @@
 
 .footer-btn {
     background: linear-gradient(285deg, rgba(34, 168, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-    padding: 15px 10px;
+    padding: 15px 25px;
     border-radius: 25px;
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
-    color: #020e28;
+    color: #ffffff;
 }
 
 .column-box .links {
