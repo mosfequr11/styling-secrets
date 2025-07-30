@@ -1,1 +1,75 @@
 /* Banner Section */
+.banner {
+    display: block;
+    position: relative;
+    height: 720px;
+}
+
+.banner .bg-image {
+    position: absolute;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.bg-image img {
+    background-size: cover;
+    object-fit: cover;
+}
+
+.banner-container .left-side {
+    display: block;
+    position: relative;
+    width: 50%;
+    padding-top: 200px;
+}
+
+.banner-container .right-side {
+    display: block;
+    position: relative;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.banner-container .heading {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 74px;
+    margin-bottom: 30px;
+}
+
+.banner-container .text-content {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fcfeff;
+    line-height: 37px;
+    padding-right: 40px;
+}
+
+.heading .gold {
+    color: #fdbe00;
+}
+
+.heading .blue {
+    color: #fdbe00;
+}
+
+.heading .blue {
+    color: #007dff;
+}
+
+.banner-pagination {
+    margin-top: 30px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.banner-container .swiper-pagination-bullet {
+    color: #fcfeff;
+}

@@ -23,3 +23,20 @@ navToggle.addEventListener("click", function () {
 closeBtn.addEventListener("click", function () {
   sideBar.classList.remove("show-sidebar");
 });
+
+// Banner slider
+const swiper = new Swiper(".swiper", {
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

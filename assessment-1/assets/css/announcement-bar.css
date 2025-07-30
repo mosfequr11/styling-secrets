@@ -1,0 +1,73 @@
+.announcement-bar {
+    background-color: #020e28;
+}
+
+.announcement-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.phone-box {
+    display: flex;
+    position: relative;
+    column-gap: 20px;
+    padding: 20px 0px;
+}
+
+.mail-box {
+    display: flex;
+    position: relative;
+    column-gap: 20px;
+    padding: 20px 0px;
+}
+
+.phone-box .text {
+    color: #fcfeff;
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+
+.mail-box .text {
+    color: #fcfeff;
+}
+
+.mail-box .icon {
+    width: 15px;
+    margin: auto;
+}
+
+.phone-box .icon {
+    width: 15px;
+    margin: auto;
+}
+
+.phone-box .icon svg {
+    fill: #007dff;
+}
+
+.mail-box .icon svg {
+    fill: #007dff;
+}
+
+@media screen and (max-width: 414px) {
+    .announcement-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .phone-box {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .phone-box .text {
+        color: #fcfeff;
+        border-right: 0px solid #fff;
+        padding-right: 0px;
+    }
+
+    .mail-box {
+        padding: 10px 0px;
+    }
+}
