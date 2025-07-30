@@ -6,7 +6,7 @@ header.primary-header {
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 16px 0px;
     margin: 0 auto;
     align-items: center;
 }
@@ -80,7 +80,8 @@ header.primary-header {
 
 .right-btn {
     height: auto;
-    background-color: #fee188;
+    /* background-color: #fee188; */
+    background: linear-gradient(285deg, rgba(34, 168, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
     padding: 15px 10px;
     border-radius: 25px;
     text-transform: capitalize;
