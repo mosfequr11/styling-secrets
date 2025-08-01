@@ -89,6 +89,19 @@
     fill: #977610;
 }
 
+.footer-bottom {
+    background-color: #000000;
+}
+
+.copyright {
+    padding: 20px 0px;
+}
+
+.copyright p {
+    color: #ffffff;
+    text-align: center;
+}
+
 @media screen and (max-width: 992px) {
     .bottom-area {
         flex-direction: column;
